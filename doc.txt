@@ -1,0 +1,922 @@
+object(Welcome)#12 (16) { 
+
+["requestData:protected"]=> NULL 
+
+["hash:private"]=> string(6) ""null"" 
+
+["return:private"]=> NULL 
+
+
+["benchmark"]=> &object(CI_Benchmark)#1 (1) { 
+	
+["marker"]=> array(4) {
+		
+["total_execution_time_start"]=> float(1442974600.241)
+		
+["loading_time:_base_classes_start"]=> float(1442974600.2411)
+		
+["loading_time:_base_classes_end"]=> float(1442974600.2858)
+		
+["controller_execution_time_( Welcome / index )_start"]=> float(1442974600.2885) 
+	} 
+} 
+
+
+["hooks"]=> &object(CI_Hooks)#2 (4) {
+	
+["enabled"]=> bool(false) 
+	
+["hooks"]=> array(0) { } 
+	
+["_objects:protected"]=> array(0) { } 
+	
+["_in_progress:protected"]=> bool(false) 
+ } 
+ 
+
+["config"]=> &object(CI_Config)#3 (3) {
+	
+["config"]=> &array(48) {
+	
+["base_url"]=> string(30) "http://localhost/MyLib/server/" 
+	
+["index_page"]=> string(0) "" 
+	
+["uri_protocol"]=> string(11) "REQUEST_URI" 
+	
+["url_suffix"]=> string(0) "" 
+	
+["language"]=> string(7) "english" 
+	
+["charset"]=> string(5) "UTF-8" 
+	
+["enable_hooks"]=> bool(false) 
+	
+["subclass_prefix"]=> string(3) "MY_" 
+	
+["composer_autoload"]=> bool(false) 
+	
+["permitted_uri_chars"]=> string(14) "a-z 0-9~%.:_\-" 
+	
+["allow_get_array"]=> bool(true) 
+	
+["enable_query_strings"]=> bool(false) 
+	
+["controller_trigger"]=> string(1) "c" 
+	
+["function_trigger"]=> string(1) "m" 
+	
+["directory_trigger"]=> string(1) "d" 
+	
+["log_threshold"]=> int(0) 
+	
+["log_path"]=> string(0) "" 
+	
+["log_file_extension"]=> string(0) "" 
+	
+["log_file_permissions"]=> int(420) 
+	
+["log_date_format"]=> string(11) "Y-m-d H:i:s" 
+	
+["error_views_path"]=> string(0) "" 
+	
+["cache_path"]=> string(0) ""
+	
+["cache_query_string"]=> bool(false)
+	
+["encryption_key"]=> string(0) ""
+	
+["sess_driver"]=> string(5) "files"
+	
+["sess_cookie_name"]=> string(10) "ci_session" 
+	
+["sess_expiration"]=> int(7200) 
+	
+["sess_save_path"]=> NULL 
+	
+["sess_match_ip"]=> bool(false) 
+	
+["sess_time_to_update"]=> int(300) 
+	
+["sess_regenerate_destroy"]=> bool(false) 
+	
+["cookie_prefix"]=> string(0) "" 
+	
+["cookie_domain"]=> string(0) "" 
+	
+["cookie_path"]=> string(1) "/" 
+	
+["cookie_secure"]=> bool(false) 
+	
+["cookie_httponly"]=> bool(false) 
+	
+["standardize_newlines"]=> bool(false) 
+	
+["global_xss_filtering"]=> bool(false) 
+	
+["csrf_protection"]=> bool(false) 
+	
+["csrf_token_name"]=> string(14) "csrf_test_name" 
+	
+["csrf_cookie_name"]=> string(16) "csrf_cookie_name" 
+	
+["csrf_expire"]=> int(7200) 
+	
+["csrf_regenerate"]=> bool(true) 
+	
+["csrf_exclude_uris"]=> array(0) { } 
+	
+["compress_output"]=> bool(false) 
+	
+["time_reference"]=> string(5) "local" 
+	
+["rewrite_short_tags"]=> bool(false) 
+	
+["proxy_ips"]=> string(0) "" } 
+	
+["is_loaded"]=> array(0) { } 
+	
+["_config_paths"]=> array(1) { 
+		
+[0]=> string(37) "C:\wamp\www\MyLib\server\application\" 
+	} 
+} 
+
+["log"]=> &object(CI_Log)#4 (8) {
+	
+["_log_path:protected"]=> string(42) "C:\wamp\www\MyLib\server\application\logs/" 
+	
+["_file_permissions:protected"]=> int(420) 
+	
+["_threshold:protected"]=> int(0)
+	
+["_threshold_array:protected"]=> array(0) { } 
+	
+["_date_fmt:protected"]=> string(11) "Y-m-d H:i:s"
+	
+["_file_ext:protected"]=> string(3) "php" 
+	
+["_enabled:protected"]=> bool(true)
+	
+["_levels:protected"]=> array(4) { 
+		
+["ERROR"]=> int(1) 
+		
+["DEBUG"]=> int(2) 
+		
+["INFO"]=> int(3) 
+		
+["ALL"]=> int(4)
+	} 
+} 
+
+["utf8"]=> &object(CI_Utf8)#5 (0) { } 
+
+
+["uri"]=> &object(CI_URI)#6 (6) { 
+	
+["keyval"]=> array(0) { } 
+	
+["uri_string"]=> string(7) "Welcome" 
+	
+["segments"]=> array(1) { 
+		
+[1]=> string(7) "Welcome" 
+	} 
+	
+["rsegments"]=> array(2) { 
+		
+[1]=> string(7) "Welcome" 
+		
+[2]=> string(5) "index" 
+	} 
+	
+["_permitted_uri_chars:protected"]=> string(14) "a-z 0-9~%.:_\-" 
+	
+["config"]=> &object(CI_Config)#3 (3) {
+		
+["config"]=> &array(48) {
+		
+["base_url"]=> string(30) "http://localhost/MyLib/server/"
+		
+["index_page"]=> string(0) "" 
+		
+["uri_protocol"]=> string(11) "REQUEST_URI" 
+		
+["url_suffix"]=> string(0) "" 
+		
+["language"]=> string(7) "english" 
+["charset"]=> string(5) "UTF-8" 
+["enable_hooks"]=> bool(false) 
+["subclass_prefix"]=> string(3) "MY_" 
+["composer_autoload"]=> bool(false) 
+["permitted_uri_chars"]=> string(14) "a-z 0-9~%.:_\-" 
+["allow_get_array"]=> bool(true) 
+["enable_query_strings"]=> bool(false) 
+["controller_trigger"]=> string(1) "c" 
+["function_trigger"]=> string(1) "m" 
+["directory_trigger"]=> string(1) "d" 
+["log_threshold"]=> int(0) 
+["log_path"]=> string(0) "" 
+["log_file_extension"]=> string(0) "" 
+["log_file_permissions"]=> int(420) 
+["log_date_format"]=> string(11) "Y-m-d H:i:s" 
+["error_views_path"]=> string(0) "" 
+["cache_path"]=> string(0) "" 
+["cache_query_string"]=> bool(false) 
+["encryption_key"]=> string(0) "" 
+["sess_driver"]=> string(5) "files" 
+["sess_cookie_name"]=> string(10) "ci_session" 
+["sess_expiration"]=> int(7200) 
+["sess_save_path"]=> NULL 
+["sess_match_ip"]=> bool(false) 
+["sess_time_to_update"]=> int(300) 
+["sess_regenerate_destroy"]=> bool(false) 
+["cookie_prefix"]=> string(0) "" 
+["cookie_domain"]=> string(0) "" 
+["cookie_path"]=> string(1) "/" 
+["cookie_secure"]=> bool(false) 
+["cookie_httponly"]=> bool(false) 
+["standardize_newlines"]=> bool(false) 
+["global_xss_filtering"]=> bool(false) 
+["csrf_protection"]=> bool(false) 
+["csrf_token_name"]=> string(14) "csrf_test_name" 
+["csrf_cookie_name"]=> string(16) "csrf_cookie_name" 
+["csrf_expire"]=> int(7200) 
+["csrf_regenerate"]=> bool(true) 
+["csrf_exclude_uris"]=> array(0) { } 
+["compress_output"]=> bool(false) 
+["time_reference"]=> string(5) "local" 
+["rewrite_short_tags"]=> bool(false) 
+["proxy_ips"]=> string(0) "" } 
+["is_loaded"]=> array(0) { } 
+["_config_paths"]=> array(1) { 
+[0]=> string(37) "C:\wamp\www\MyLib\server\application\" } } } 
+["router"]=> &object(CI_Router)#7 (9) { 
+["config"]=> &object(CI_Config)#3 (3) { 
+["config"]=> &array(48) { 
+["base_url"]=> string(30) "http://localhost/MyLib/server/" 
+["index_page"]=> string(0) "" 
+["uri_protocol"]=> string(11) "REQUEST_URI" 
+["url_suffix"]=> string(0) "" 
+["language"]=> string(7) "english" 
+["charset"]=> string(5) "UTF-8" 
+["enable_hooks"]=> bool(false) 
+["subclass_prefix"]=> string(3) "MY_" 
+["composer_autoload"]=> bool(false) 
+["permitted_uri_chars"]=> string(14) "a-z 0-9~%.:_\-" 
+["allow_get_array"]=> bool(true) 
+["enable_query_strings"]=> bool(false) 
+["controller_trigger"]=> string(1) "c" 
+["function_trigger"]=> string(1) "m" 
+["directory_trigger"]=> string(1) "d" 
+["log_threshold"]=> int(0) 
+["log_path"]=> string(0) "" 
+["log_file_extension"]=> string(0) "" 
+["log_file_permissions"]=> int(420) 
+["log_date_format"]=> string(11) "Y-m-d H:i:s" 
+["error_views_path"]=> string(0) "" 
+["cache_path"]=> string(0) "" 
+["cache_query_string"]=> bool(false) 
+["encryption_key"]=> string(0) "" 
+["sess_driver"]=> string(5) "files" 
+["sess_cookie_name"]=> string(10) "ci_session" 
+["sess_expiration"]=> int(7200) 
+["sess_save_path"]=> NULL 
+["sess_match_ip"]=> bool(false) 
+["sess_time_to_update"]=> int(300) 
+["sess_regenerate_destroy"]=> bool(false) 
+["cookie_prefix"]=> string(0) "" 
+["cookie_domain"]=> string(0) "" 
+["cookie_path"]=> string(1) "/" 
+["cookie_secure"]=> bool(false) 
+["cookie_httponly"]=> bool(false) 
+["standardize_newlines"]=> bool(false) 
+["global_xss_filtering"]=> bool(false) 
+["csrf_protection"]=> bool(false) 
+["csrf_token_name"]=> string(14) "csrf_test_name" 
+["csrf_cookie_name"]=> string(16) "csrf_cookie_name" 
+["csrf_expire"]=> int(7200) 
+["csrf_regenerate"]=> bool(true) 
+["csrf_exclude_uris"]=> array(0) { } 
+["compress_output"]=> bool(false) 
+["time_reference"]=> string(5) "local" 
+["rewrite_short_tags"]=> bool(false) 
+["proxy_ips"]=> string(0) "" } 
+["is_loaded"]=> array(0) { } 
+["_config_paths"]=> array(1) { 
+[0]=> string(37) "C:\wamp\www\MyLib\server\application\" } } 
+["routes"]=> array(1) { 
+["404_override"]=> string(0) "" } 
+["class"]=> string(7) "Welcome" 
+["method"]=> string(5) "index" 
+["directory"]=> NULL 
+["default_controller"]=> string(7) "welcome" 
+["translate_uri_dashes"]=> bool(false) 
+["enable_query_strings"]=> bool(false) 
+["uri"]=> &object(CI_URI)#6 (6) { 
+["keyval"]=> array(0) { } 
+["uri_string"]=> string(7) "Welcome" 
+["segments"]=> array(1) { 
+[1]=> string(7) "Welcome" } 
+["rsegments"]=> array(2) { 
+[1]=> string(7) "Welcome" 
+[2]=> string(5) "index" } 
+["_permitted_uri_chars:protected"]=> string(14) "a-z 0-9~%.:_\-" 
+["config"]=> &object(CI_Config)#3 (3) { 
+["config"]=> &array(48) { 
+["base_url"]=> string(30) "http://localhost/MyLib/server/" 
+["index_page"]=> string(0) "" 
+["uri_protocol"]=> string(11) "REQUEST_URI" 
+["url_suffix"]=> string(0) "" 
+["language"]=> string(7) "english" 
+["charset"]=> string(5) "UTF-8" 
+["enable_hooks"]=> bool(false) 
+["subclass_prefix"]=> string(3) "MY_" 
+["composer_autoload"]=> bool(false) 
+["permitted_uri_chars"]=> string(14) "a-z 0-9~%.:_\-" 
+["allow_get_array"]=> bool(true) 
+["enable_query_strings"]=> bool(false) 
+["controller_trigger"]=> string(1) "c" 
+["function_trigger"]=> string(1) "m" 
+["directory_trigger"]=> string(1) "d" 
+["log_threshold"]=> int(0) 
+["log_path"]=> string(0) "" 
+["log_file_extension"]=> string(0) "" 
+["log_file_permissions"]=> int(420) 
+["log_date_format"]=> string(11) "Y-m-d H:i:s" 
+["error_views_path"]=> string(0) "" 
+["cache_path"]=> string(0) "" 
+["cache_query_string"]=> bool(false) 
+["encryption_key"]=> string(0) "" 
+["sess_driver"]=> string(5) "files" 
+["sess_cookie_name"]=> string(10) "ci_session" 
+["sess_expiration"]=> int(7200) 
+["sess_save_path"]=> NULL 
+["sess_match_ip"]=> bool(false) 
+["sess_time_to_update"]=> int(300) 
+["sess_regenerate_destroy"]=> bool(false) 
+["cookie_prefix"]=> string(0) "" 
+["cookie_domain"]=> string(0) "" 
+["cookie_path"]=> string(1) "/" 
+["cookie_secure"]=> bool(false) 
+["cookie_httponly"]=> bool(false) 
+["standardize_newlines"]=> bool(false) 
+["global_xss_filtering"]=> bool(false) 
+["csrf_protection"]=> bool(false) 
+["csrf_token_name"]=> string(14) "csrf_test_name" 
+["csrf_cookie_name"]=> string(16) "csrf_cookie_name" 
+["csrf_expire"]=> int(7200) 
+["csrf_regenerate"]=> bool(true) 
+["csrf_exclude_uris"]=> array(0) { } 
+["compress_output"]=> bool(false) 
+["time_reference"]=> string(5) "local" 
+["rewrite_short_tags"]=> bool(false) 
+["proxy_ips"]=> string(0) "" } 
+["is_loaded"]=> array(0) { } 
+["_config_paths"]=> array(1) { 
+[0]=> string(37) "C:\wamp\www\MyLib\server\application\" } } } } 
+["output"]=> &object(CI_Output)#8 (10) { 
+["final_output"]=> NULL 
+["cache_expiration"]=> int(0) 
+["headers"]=> array(0) { } 
+["mimes"]=> &array(145) { 
+["hqx"]=> array(4) { 
+[0]=> string(24) "application/mac-binhex40" 
+[1]=> string(22) "application/mac-binhex" 
+[2]=> string(22) "application/x-binhex40" 
+[3]=> string(26) "application/x-mac-binhex40" } 
+["cpt"]=> string(26) "application/mac-compactpro" 
+["csv"]=> array(11) { 
+[0]=> string(29) "text/x-comma-separated-values" 
+[1]=> string(27) "text/comma-separated-values" 
+[2]=> string(24) "application/octet-stream" 
+[3]=> string(24) "application/vnd.ms-excel" 
+[4]=> string(17) "application/x-csv" 
+[5]=> string(10) "text/x-csv" 
+[6]=> string(8) "text/csv" 
+[7]=> string(15) "application/csv" 
+[8]=> string(17) "application/excel" 
+[9]=> string(23) "application/vnd.msexcel" 
+[10]=> string(10) "text/plain" } 
+["bin"]=> array(5) { 
+[0]=> string(21) "application/macbinary" 
+[1]=> string(22) "application/mac-binary" 
+[2]=> string(24) "application/octet-stream" 
+[3]=> string(20) "application/x-binary" 
+[4]=> string(23) "application/x-macbinary" } 
+["dms"]=> string(24) "application/octet-stream" 
+["lha"]=> string(24) "application/octet-stream" 
+["lzh"]=> string(24) "application/octet-stream" 
+["exe"]=> array(2) { 
+[0]=> string(24) "application/octet-stream" 
+[1]=> string(24) "application/x-msdownload" } 
+["class"]=> string(24) "application/octet-stream" 
+["psd"]=> array(2) { 
+[0]=> string(23) "application/x-photoshop" 
+[1]=> string(25) "image/vnd.adobe.photoshop" } 
+["so"]=> string(24) "application/octet-stream" 
+["sea"]=> string(24) "application/octet-stream" 
+["dll"]=> string(24) "application/octet-stream" 
+["oda"]=> string(15) "application/oda" 
+["pdf"]=> array(4) { 
+[0]=> string(15) "application/pdf" 
+[1]=> string(26) "application/force-download" 
+[2]=> string(22) "application/x-download" 
+[3]=> string(19) "binary/octet-stream" } 
+["ai"]=> array(2) { 
+[0]=> string(15) "application/pdf" 
+[1]=> string(22) "application/postscript" } 
+["eps"]=> string(22) "application/postscript" 
+["ps"]=> string(22) "application/postscript" 
+["smi"]=> string(16) "application/smil" 
+["smil"]=> string(16) "application/smil" 
+["mif"]=> string(19) "application/vnd.mif" 
+["xls"]=> array(12) { 
+[0]=> string(24) "application/vnd.ms-excel" 
+[1]=> string(19) "application/msexcel" 
+[2]=> string(21) "application/x-msexcel" 
+[3]=> string(22) "application/x-ms-excel" 
+[4]=> string(19) "application/x-excel" 
+[5]=> string(26) "application/x-dos_ms_excel" 
+[6]=> string(15) "application/xls" 
+[7]=> string(17) "application/x-xls" 
+[8]=> string(17) "application/excel" 
+[9]=> string(20) "application/download" 
+[10]=> string(25) "application/vnd.ms-office" 
+[11]=> string(18) "application/msword" } 
+["ppt"]=> array(4) { 
+[0]=> string(22) "application/powerpoint" 
+[1]=> string(29) "application/vnd.ms-powerpoint" 
+[2]=> string(25) "application/vnd.ms-office" 
+[3]=> string(18) "application/msword" } 
+["pptx"]=> array(3) { 
+[0]=> string(73) "application/vnd.openxmlformats-officedocument.presentationml.presentation" 
+[1]=> string(17) "application/x-zip" 
+[2]=> string(15) "application/zip" } 
+["wbxml"]=> string(17) "application/wbxml" 
+["wmlc"]=> string(16) "application/wmlc" 
+["dcr"]=> string(22) "application/x-director" 
+["dir"]=> string(22) "application/x-director" 
+["dxr"]=> string(22) "application/x-director" 
+["dvi"]=> string(17) "application/x-dvi" 
+["gtar"]=> string(18) "application/x-gtar" 
+["gz"]=> string(18) "application/x-gzip" 
+["gzip"]=> string(18) "application/x-gzip" 
+["php"]=> array(6) { 
+[0]=> string(23) "application/x-httpd-php" 
+[1]=> string(15) "application/php" 
+[2]=> string(17) "application/x-php" 
+[3]=> string(8) "text/php" 
+[4]=> string(10) "text/x-php" 
+[5]=> string(30) "application/x-httpd-php-source" } 
+["php4"]=> string(23) "application/x-httpd-php" 
+["php3"]=> string(23) "application/x-httpd-php" 
+["phtml"]=> string(23) "application/x-httpd-php" 
+["phps"]=> string(30) "application/x-httpd-php-source" 
+["js"]=> array(2) { 
+[0]=> string(24) "application/x-javascript" 
+[1]=> string(10) "text/plain" } 
+["swf"]=> string(29) "application/x-shockwave-flash" 
+["sit"]=> string(21) "application/x-stuffit" 
+["tar"]=> string(17) "application/x-tar" 
+["tgz"]=> array(2) { 
+[0]=> string(17) "application/x-tar" 
+[1]=> string(29) "application/x-gzip-compressed" } 
+["z"]=> string(22) "application/x-compress" 
+["xhtml"]=> string(21) "application/xhtml+xml" 
+["xht"]=> string(21) "application/xhtml+xml" 
+["zip"]=> array(5) { 
+[0]=> string(17) "application/x-zip" 
+[1]=> string(15) "application/zip" 
+[2]=> string(28) "application/x-zip-compressed" 
+[3]=> string(24) "application/s-compressed" 
+[4]=> string(15) "multipart/x-zip" } 
+["rar"]=> array(3) { 
+[0]=> string(17) "application/x-rar" 
+[1]=> string(15) "application/rar" 
+[2]=> string(28) "application/x-rar-compressed" } 
+["mid"]=> string(10) "audio/midi" 
+["midi"]=> string(10) "audio/midi" 
+["mpga"]=> string(10) "audio/mpeg" 
+["mp2"]=> string(10) "audio/mpeg" 
+["mp3"]=> array(4) { 
+[0]=> string(10) "audio/mpeg" 
+[1]=> string(9) "audio/mpg" 
+[2]=> string(11) "audio/mpeg3" 
+[3]=> string(9) "audio/mp3" } 
+["aif"]=> array(2) { 
+[0]=> string(12) "audio/x-aiff" 
+[1]=> string(10) "audio/aiff" } 
+["aiff"]=> array(2) { 
+[0]=> string(12) "audio/x-aiff" 
+[1]=> string(10) "audio/aiff" } 
+["aifc"]=> string(12) "audio/x-aiff" 
+["ram"]=> string(20) "audio/x-pn-realaudio" 
+["rm"]=> string(20) "audio/x-pn-realaudio" 
+["rpm"]=> string(27) "audio/x-pn-realaudio-plugin" 
+["ra"]=> string(17) "audio/x-realaudio" 
+["rv"]=> string(22) "video/vnd.rn-realvideo" 
+["wav"]=> array(3) { 
+[0]=> string(11) "audio/x-wav" 
+[1]=> string(10) "audio/wave" 
+[2]=> string(9) "audio/wav" } 
+["bmp"]=> array(11) { 
+[0]=> string(9) "image/bmp" 
+[1]=> string(11) "image/x-bmp" 
+[2]=> string(14) "image/x-bitmap" 
+[3]=> string(15) "image/x-xbitmap" 
+[4]=> string(18) "image/x-win-bitmap" 
+[5]=> string(19) "image/x-windows-bmp" 
+[6]=> string(12) "image/ms-bmp" 
+[7]=> string(14) "image/x-ms-bmp" 
+[8]=> string(15) "application/bmp" 
+[9]=> string(17) "application/x-bmp" 
+[10]=> string(24) "application/x-win-bitmap" } 
+["gif"]=> string(9) "image/gif" 
+["jpeg"]=> array(2) { 
+[0]=> string(10) "image/jpeg" 
+[1]=> string(11) "image/pjpeg" } 
+["jpg"]=> array(2) { 
+[0]=> string(10) "image/jpeg" 
+[1]=> string(11) "image/pjpeg" } 
+["jpe"]=> array(2) { 
+[0]=> string(10) "image/jpeg" 
+[1]=> string(11) "image/pjpeg" } 
+["png"]=> array(2) { 
+[0]=> string(9) "image/png" 
+[1]=> string(11) "image/x-png" } 
+["tiff"]=> string(10) "image/tiff" 
+["tif"]=> string(10) "image/tiff" 
+["css"]=> array(2) { 
+[0]=> string(8) "text/css" 
+[1]=> string(10) "text/plain" } 
+["html"]=> array(2) { 
+[0]=> string(9) "text/html" 
+[1]=> string(10) "text/plain" } 
+["htm"]=> array(2) { 
+[0]=> string(9) "text/html" 
+[1]=> string(10) "text/plain" } 
+["shtml"]=> array(2) { 
+[0]=> string(9) "text/html" 
+[1]=> string(10) "text/plain" } 
+["txt"]=> string(10) "text/plain" 
+["text"]=> string(10) "text/plain" 
+["log"]=> array(2) { 
+[0]=> string(10) "text/plain" 
+[1]=> string(10) "text/x-log" } 
+["rtx"]=> string(13) "text/richtext" 
+["rtf"]=> string(8) "text/rtf" 
+["xml"]=> array(3) { 
+[0]=> string(15) "application/xml" 
+[1]=> string(8) "text/xml" 
+[2]=> string(10) "text/plain" } 
+["xsl"]=> array(3) { 
+[0]=> string(15) "application/xml" 
+[1]=> string(8) "text/xsl" 
+[2]=> string(8) "text/xml" } 
+["mpeg"]=> string(10) "video/mpeg" 
+["mpg"]=> string(10) "video/mpeg" 
+["mpe"]=> string(10) "video/mpeg" 
+["qt"]=> string(15) "video/quicktime" 
+["mov"]=> string(15) "video/quicktime" 
+["avi"]=> array(4) { 
+[0]=> string(15) "video/x-msvideo" 
+[1]=> string(13) "video/msvideo" 
+[2]=> string(9) "video/avi" 
+[3]=> string(27) "application/x-troff-msvideo" } 
+["movie"]=> string(17) "video/x-sgi-movie" 
+["doc"]=> array(2) { 
+[0]=> string(18) "application/msword" 
+[1]=> string(25) "application/vnd.ms-office" } 
+["docx"]=> array(4) { 
+[0]=> string(71) "application/vnd.openxmlformats-officedocument.wordprocessingml.document" 
+[1]=> string(15) "application/zip" 
+[2]=> string(18) "application/msword" 
+[3]=> string(17) "application/x-zip" } 
+["dot"]=> array(2) { 
+[0]=> string(18) "application/msword" 
+[1]=> string(25) "application/vnd.ms-office" } 
+["dotx"]=> array(3) { 
+[0]=> string(71) "application/vnd.openxmlformats-officedocument.wordprocessingml.document" 
+[1]=> string(15) "application/zip" 
+[2]=> string(18) "application/msword" } 
+["xlsx"]=> array(5) { 
+[0]=> string(65) "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" 
+[1]=> string(15) "application/zip" 
+[2]=> string(24) "application/vnd.ms-excel" 
+[3]=> string(18) "application/msword" 
+[4]=> string(17) "application/x-zip" } 
+["word"]=> array(2) { 
+[0]=> string(18) "application/msword" 
+[1]=> string(24) "application/octet-stream" } 
+["xl"]=> string(17) "application/excel" 
+["eml"]=> string(14) "message/rfc822" 
+["json"]=> array(2) { 
+[0]=> string(16) "application/json" 
+[1]=> string(9) "text/json" } 
+["pem"]=> array(3) { 
+[0]=> string(28) "application/x-x509-user-cert" 
+[1]=> string(22) "application/x-pem-file" 
+[2]=> string(24) "application/octet-stream" } 
+["p10"]=> array(2) { 
+[0]=> string(20) "application/x-pkcs10" 
+[1]=> string(18) "application/pkcs10" } 
+["p12"]=> string(20) "application/x-pkcs12" 
+["p7a"]=> string(29) "application/x-pkcs7-signature" 
+["p7c"]=> array(2) { 
+[0]=> string(22) "application/pkcs7-mime" 
+[1]=> string(24) "application/x-pkcs7-mime" } 
+["p7m"]=> array(2) { 
+[0]=> string(22) "application/pkcs7-mime" 
+[1]=> string(24) "application/x-pkcs7-mime" } 
+["p7r"]=> string(31) "application/x-pkcs7-certreqresp" 
+["p7s"]=> string(27) "application/pkcs7-signature" 
+["crt"]=> array(3) { 
+[0]=> string(26) "application/x-x509-ca-cert" 
+[1]=> string(28) "application/x-x509-user-cert" 
+[2]=> string(21) "application/pkix-cert" } 
+["crl"]=> array(2) { 
+[0]=> string(20) "application/pkix-crl" 
+[1]=> string(20) "application/pkcs-crl" } 
+["der"]=> string(26) "application/x-x509-ca-cert" 
+["kdb"]=> string(24) "application/octet-stream" 
+["pgp"]=> string(15) "application/pgp" 
+["gpg"]=> string(20) "application/gpg-keys" 
+["sst"]=> string(24) "application/octet-stream" 
+["csr"]=> string(24) "application/octet-stream" 
+["rsa"]=> string(19) "application/x-pkcs7" 
+["cer"]=> array(2) { 
+[0]=> string(21) "application/pkix-cert" 
+[1]=> string(26) "application/x-x509-ca-cert" } 
+["3g2"]=> string(11) "video/3gpp2" 
+["3gp"]=> array(2) { 
+[0]=> string(9) "video/3gp" 
+[1]=> string(10) "video/3gpp" } 
+["mp4"]=> string(9) "video/mp4" 
+["m4a"]=> string(11) "audio/x-m4a" 
+["f4v"]=> string(9) "video/mp4" 
+["webm"]=> string(10) "video/webm" 
+["aac"]=> string(11) "audio/x-acc" 
+["m4u"]=> string(23) "application/vnd.mpegurl" 
+["m3u"]=> string(10) "text/plain" 
+["xspf"]=> string(20) "application/xspf+xml" 
+["vlc"]=> string(20) "application/videolan" 
+["wmv"]=> array(2) { 
+[0]=> string(14) "video/x-ms-wmv" 
+[1]=> string(14) "video/x-ms-asf" } 
+["au"]=> string(10) "audio/x-au" 
+["ac3"]=> string(9) "audio/ac3" 
+["flac"]=> string(12) "audio/x-flac" 
+["ogg"]=> string(9) "audio/ogg" 
+["kmz"]=> array(3) { 
+[0]=> string(32) "application/vnd.google-earth.kmz" 
+[1]=> string(15) "application/zip" 
+[2]=> string(17) "application/x-zip" } 
+["kml"]=> array(3) { 
+[0]=> string(36) "application/vnd.google-earth.kml+xml" 
+[1]=> string(15) "application/xml" 
+[2]=> string(8) "text/xml" } 
+["ics"]=> string(13) "text/calendar" 
+["ical"]=> string(13) "text/calendar" 
+["zsh"]=> string(16) "text/x-scriptzsh" 
+["7zip"]=> array(4) { 
+[0]=> string(24) "application/x-compressed" 
+[1]=> string(28) "application/x-zip-compressed" 
+[2]=> string(15) "application/zip" 
+[3]=> string(15) "multipart/x-zip" } 
+["cdr"]=> array(7) { 
+[0]=> string(15) "application/cdr" 
+[1]=> string(21) "application/coreldraw" 
+[2]=> string(17) "application/x-cdr" 
+[3]=> string(23) "application/x-coreldraw" 
+[4]=> string(9) "image/cdr" 
+[5]=> string(11) "image/x-cdr" 
+[6]=> string(30) "zz-application/zz-winassoc-cdr" } 
+["wma"]=> array(2) { 
+[0]=> string(14) "audio/x-ms-wma" 
+[1]=> string(14) "video/x-ms-asf" } 
+["jar"]=> array(4) { 
+[0]=> string(24) "application/java-archive" 
+[1]=> string(30) "application/x-java-application" 
+[2]=> string(17) "application/x-jar" 
+[3]=> string(24) "application/x-compressed" } 
+["svg"]=> array(3) { 
+[0]=> string(13) "image/svg+xml" 
+[1]=> string(15) "application/xml" 
+[2]=> string(8) "text/xml" } 
+["vcf"]=> string(12) "text/x-vcard" 
+["srt"]=> array(2) { 
+[0]=> string(8) "text/srt" 
+[1]=> string(10) "text/plain" } 
+["vtt"]=> array(2) { 
+[0]=> string(8) "text/vtt" 
+[1]=> string(10) "text/plain" } 
+["ico"]=> array(3) { 
+[0]=> string(12) "image/x-icon" 
+[1]=> string(11) "image/x-ico" 
+[2]=> string(24) "image/vnd.microsoft.icon" } } 
+["mime_type:protected"]=> string(9) "text/html" 
+["enable_profiler"]=> bool(false) 
+["_zlib_oc:protected"]=> bool(false) 
+["_compress_output:protected"]=> bool(false) 
+["_profiler_sections:protected"]=> array(0) { } 
+["parse_exec_vars"]=> bool(true) } 
+["security"]=> &object(CI_Security)#9 (9) { 
+["filename_bad_chars"]=> array(31) { 
+[0]=> string(3) "../" 
+[1]=> string(4) "" 
+[3]=> string(1) "<" 
+[4]=> string(1) ">" 
+[5]=> string(1) "'" 
+[6]=> string(1) """ 
+[7]=> string(1) "&" 
+[8]=> string(1) "$" 
+[9]=> string(1) "#" 
+[10]=> string(1) "{" 
+[11]=> string(1) "}" 
+[12]=> string(1) "
+[" 
+[13]=> string(1) "]" 
+[14]=> string(1) "=" 
+[15]=> string(1) ";" 
+[16]=> string(1) "?" 
+[17]=> string(3) "%20" 
+[18]=> string(3) "%22" 
+[19]=> string(3) "%3c" 
+[20]=> string(5) "%253c" 
+[21]=> string(3) "%3e" 
+[22]=> string(3) "%0e" 
+[23]=> string(3) "%28" 
+[24]=> string(3) "%29" 
+[25]=> string(5) "%2528" 
+[26]=> string(3) "%26" 
+[27]=> string(3) "%24" 
+[28]=> string(3) "%3f" 
+[29]=> string(3) "%3b" 
+[30]=> string(3) "%3d" } 
+["charset"]=> string(5) "UTF-8" 
+["_xss_hash:protected"]=> NULL 
+["_csrf_hash:protected"]=> NULL 
+["_csrf_expire:protected"]=> int(7200) 
+["_csrf_token_name:protected"]=> string(13) "ci_csrf_token" 
+["_csrf_cookie_name:protected"]=> string(13) "ci_csrf_token" 
+["_never_allowed_str:protected"]=> array(9) { 
+["document.cookie"]=> string(9) "
+[removed]" 
+["document.write"]=> string(9) "
+[removed]" 
+[".parentNode"]=> string(9) "
+[removed]" 
+[".innerHTML"]=> string(9) "
+[removed]" 
+["-moz-binding"]=> string(9) "
+[removed]" 
+[""]=> string(6) "-->" 
+[" string(12) "<!
+[CDATA
+[" 
+[""]=> string(15) "<comment>" } 
+["_never_allowed_regex:protected"]=> array(9) { 
+[0]=> string(14) "javascript\s*:" 
+[1]=> string(48) "(document|(document\.)?window)\.(location|on\w*)" 
+[2]=> string(24) "expression\s*(\(|&\#40;)" 
+[3]=> string(12) "vbscript\s*:" 
+[4]=> string(11) "wscript\s*:" 
+[5]=> string(11) "jscript\s*:" 
+[6]=> string(7) "vbs\s*:" 
+[7]=> string(15) "Redirect\s+30\d" 
+[8]=> string(46) "(
+["'])?data\s*:
+[^\1]*?base64
+[^\1]*?,
+[^\1]*?\1?" } } 
+["input"]=> &object(CI_Input)#10 (10) { 
+["ip_address:protected"]=> bool(false) 
+["_allow_get_array:protected"]=> bool(true) 
+["_standardize_newlines:protected"]=> bool(false) 
+["_enable_xss:protected"]=> bool(false) 
+["_enable_csrf:protected"]=> bool(false) 
+["headers:protected"]=> array(0) { } 
+["_raw_input_stream:protected"]=> NULL 
+["_input_stream:protected"]=> NULL 
+["security:protected"]=> &object(CI_Security)#9 (9) { 
+["filename_bad_chars"]=> array(31) { 
+[0]=> string(3) "../" 
+[1]=> string(4) "" 
+[3]=> string(1) "<" 
+[4]=> string(1) ">" 
+[5]=> string(1) "'" 
+[6]=> string(1) """ 
+[7]=> string(1) "&" 
+[8]=> string(1) "$" 
+[9]=> string(1) "#" 
+[10]=> string(1) "{" 
+[11]=> string(1) "}" 
+[12]=> string(1) "
+[" 
+[13]=> string(1) "]" 
+[14]=> string(1) "=" 
+[15]=> string(1) ";" 
+[16]=> string(1) "?" 
+[17]=> string(3) "%20" 
+[18]=> string(3) "%22" 
+[19]=> string(3) "%3c" 
+[20]=> string(5) "%253c" 
+[21]=> string(3) "%3e" 
+[22]=> string(3) "%0e" 
+[23]=> string(3) "%28" 
+[24]=> string(3) "%29" 
+[25]=> string(5) "%2528" 
+[26]=> string(3) "%26" 
+[27]=> string(3) "%24" 
+[28]=> string(3) "%3f" 
+[29]=> string(3) "%3b" 
+[30]=> string(3) "%3d" } 
+["charset"]=> string(5) "UTF-8" 
+["_xss_hash:protected"]=> NULL 
+["_csrf_hash:protected"]=> NULL 
+["_csrf_expire:protected"]=> int(7200) 
+["_csrf_token_name:protected"]=> string(13) "ci_csrf_token" 
+["_csrf_cookie_name:protected"]=> string(13) "ci_csrf_token" 
+["_never_allowed_str:protected"]=> array(9) { 
+["document.cookie"]=> string(9) "
+[removed]" 
+["document.write"]=> string(9) "
+[removed]" 
+[".parentNode"]=> string(9) "
+[removed]" 
+[".innerHTML"]=> string(9) "
+[removed]" 
+["-moz-binding"]=> string(9) "
+[removed]" 
+[""]=> string(6) "-->" 
+[" string(12) "<!
+[CDATA
+[" 
+[""]=> string(15) "<comment>" } 
+["_never_allowed_regex:protected"]=> array(9) { 
+[0]=> string(14) "javascript\s*:" 
+[1]=> string(48) "(document|(document\.)?window)\.(location|on\w*)" 
+[2]=> string(24) "expression\s*(\(|&\#40;)" 
+[3]=> string(12) "vbscript\s*:" 
+[4]=> string(11) "wscript\s*:" 
+[5]=> string(11) "jscript\s*:" 
+[6]=> string(7) "vbs\s*:" 
+[7]=> string(15) "Redirect\s+30\d" 
+[8]=> string(46) "(
+["'])?data\s*:
+[^\1]*?base64
+[^\1]*?,
+[^\1]*?\1?" } } 
+["uni:protected"]=> &object(CI_Utf8)#5 (0) { } } 
+["lang"]=> &object(CI_Lang)#11 (2) { 
+["language"]=> array(0) { } 
+["is_loaded"]=> array(0) { } } 
+["load"]=> &object(CI_Loader)#13 (10) { 
+["_ci_ob_level:protected"]=> int(1) 
+["_ci_view_paths:protected"]=> array(1) { 
+["C:\wamp\www\MyLib\server\application\views\"]=> bool(true) } 
+["_ci_library_paths:protected"]=> array(2) { 
+[0]=> string(37) "C:\wamp\www\MyLib\server\application\" 
+[1]=> string(32) "C:/wamp/www/MyLib/server/system/" } 
+["_ci_model_paths:protected"]=> array(1) { 
+[0]=> string(37) "C:\wamp\www\MyLib\server\application\" } 
+["_ci_helper_paths:protected"]=> array(2) { 
+[0]=> string(37) "C:\wamp\www\MyLib\server\application\" 
+[1]=> string(32) "C:/wamp/www/MyLib/server/system/" } 
+["_ci_cached_vars:protected"]=> array(0) { } 
+["_ci_classes:protected"]=> &array(13) { 
+["benchmark"]=> string(9) "Benchmark" 
+["hooks"]=> string(5) "Hooks" 
+["config"]=> string(6) "Config" 
+["log"]=> string(3) "Log" 
+["utf8"]=> string(4) "Utf8" 
+["uri"]=> string(3) "URI" 
+["router"]=> string(6) "Router" 
+["output"]=> string(6) "Output" 
+["security"]=> string(8) "Security" 
+["input"]=> string(5) "Input" 
+["lang"]=> string(4) "Lang" 
+["loader"]=> string(6) "Loader" 
+["session"]=> string(7) "Session" } 
+["_ci_models:protected"]=> array(0) { } 
+["_ci_helpers:protected"]=> array(0) { } 
+["_ci_varmap:protected"]=> array(2) { 
+		["unit_test"]=> string(4) "unit" 
+		["user_agent"]=> string(5) "agent" 
+	} 
+} 
+["session"]=> object(CI_Session)#14 (3) { 
+["userdata"]=> &array(1) { 
+["__ci_last_regenerate"]=> int(1442974571) } 
+["_driver:protected"]=> string(5) "files" 
+["_config:protected"]=> &array(8) { 
+["cookie_lifetime"]=> int(7200) 
+["cookie_name"]=> string(10) "ci_session" 
+["cookie_path"]=> string(1) "/" 
+["cookie_domain"]=> string(0) "" 
+["cookie_secure"]=> bool(false) 
+["expiration"]=> int(7200) 
+["match_ip"]=> bool(false) 
+["save_path"]=> string(11) "c:/wamp/tmp" } } }
